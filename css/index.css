@@ -1,0 +1,109 @@
+/*
+    Default settings
+*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:18px;
+}
+
+/*
+    Bigger component settings
+*/
+nav{
+    background-color:aquamarine;
+    border-bottom:2px solid aquamarine;
+}
+
+#main{
+    background-color:azure;
+}
+
+aside{
+    border-top:2px solid aquamarine;
+    background-color:aquamarine;
+}
+
+/*
+    keyword settings
+*/
+article{
+    margin:5px;
+}
+
+section{
+    margin:5px;
+    padding:5px;    
+}
+
+div{
+    margin:5px;  
+}
+
+ul li{
+    margin-bottom:5px;
+}
+
+ul caption{
+    font-weight:bold;
+}
+
+ol li{
+    margin-bottom:5px;
+}
+
+ol caption{
+    font-weight:bold;
+}
+
+blockquote{
+    border:2px solid black;
+    border-radius:10px;
+    width:500px;
+    padding:10px;
+}
+
+/*
+    commonly used settings
+*/
+.indented{
+    margin-left:10px;
+}
+
+.clearB{
+    cleaR:both;
+}
+
+.floatL{
+    float:left;
+}
+
+.floatR{
+    float:right;
+}
+
+.noLiItem{
+    list-style-type:none;
+}
+
+.centerTxt{
+    text-align: center;
+}
+
+/*
+    custom settings for highlights
+*/
+emB{
+    font-weight:bold;
+    color:blue;
+}
+
+emG{
+    font-weight:bold;
+    color:green;
+}
+
+emR{
+    font-weight:bold;
+    font-style:italic;
+    color:red;
+}
