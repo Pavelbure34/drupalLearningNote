@@ -14,11 +14,7 @@ nav{
     border-bottom:2px solid aquamarine;
 }
 
-#OT{
-    background-color:azure;
-}
-
-#main{
+#lessons{
     background-color:azure;
 }
 
@@ -57,6 +53,43 @@ ol li{
 
 ol caption{
     font-weight:bold;
+}
+
+dl{
+    padding:5px;
+    margin-left:5px;
+}
+
+dl dd{
+    margin-left:3px;
+    padding:5px;
+}
+
+dl dt{
+    margin-left:3px;
+}
+
+table{
+    text-align: center;
+    border:2px solid black;
+    border-radius:5px;
+    padding:3px;
+}
+
+table tr{
+    padding:3px;
+    border:1px solid black;
+}
+
+table tr th{
+    padding:3px;
+    background-color: aqua;
+    border:1px solid black;
+}
+
+table tr td{
+    padding:3px;
+    border:1px solid black;
 }
 
 blockquote{

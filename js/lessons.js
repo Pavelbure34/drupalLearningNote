@@ -153,12 +153,203 @@ const data = {
             </ul>
         </section>`,
     day03:
-        ``,
+        ` <h3>Distributions</h3>
+        <section>
+            <blockquote>
+             <emB>Distribution</emB> = provision of <emR>site features and functions</emR>
+             <emB> for a specific type of site as single downlad</emB>
+             <ul>
+                 <caption>including</caption>
+                 <li>core software</li>
+                 <li>contributed modules, themes</li>
+                 <li>pre-defined configurations</li>
+             </ul>
+            </blockquote>
+            It is <emG>simlar to NPM or Yarn</emG>.
+        </section>
+        <section>
+            <h4>Full-featured distribution</h4>
+            It provides <emB>perfect solution</emB> for the
+             <emB>specific purposes</emB>.<br>
+            ex) academic, government, nonprofit, publishing, social
+        </section>
+        <section>
+             <h4>other distribution</h4>
+             It can be <emB>quick start</emB> tools for developers and site builders as
+             <EmR>starting point</EmR>.
+         </section>`,
     day04:
-        ``,
+        `<h2>Data Types</h2>
+        There are <emB>four types</emB> of data to be used
+        for Drupal websites.
+        <dl>
+            <dt><emR>Content</emR>:</dt>
+            <dd>
+                <blockquote>
+                    <emB>information</emB>
+                    to be <emB>shown or used</emB>
+                     to <emR>site visitors</emR>.
+                </blockquote>
+                <ul>
+                    <caption>ex) text, images, etc</caption>
+                    <li>relatively permanent</li>
+                    <li>always <emB>editable</emB></li>
+                </ul>
+            </dd>
+
+            <dt><emR>Configuration</emR>:</dt>
+            <dd>
+                <blockquote>
+                    <emB>setting</emB> defining
+                     <emG>how your site behaves</emG> or is displayed.
+                </blockquote>
+                <ul>
+                    <li>relatively permanent</li>
+                    <li>always <emB>editable</emB></li>
+                    <li><emG>sometimes</emG> shown to site visitors.</li>
+                </ul>
+            </dd>
+
+            <dt><emR>State</emR>:</dt>
+            <dd>
+                <blockquote>
+                    <emB>information</emB> of the <emR>temporary</emR>
+                    state of the <emB>current site</emB>.
+                </blockquote>
+                <ul>
+                    <caption>ex) time when cron jobs were last run</caption>
+                    <li>temporary</li>
+                </ul>
+            </dd>
+
+            <dt><emR>Session</emR></dt>
+            <dd>
+                <blockquote>
+                    <emB>information</emB> of the <emR>reaction to the site</emR>
+                    of the <emB>individual visitor</emB>.
+                </blockquote>
+                <ul>
+                    <caption>ex) logged in or not</caption>
+                    <li><emR>temporary</emR></li>
+                    <li><emB>sub type</emB> of state</li>
+                </ul>
+            </dd>
+        </dl>`,
     day05:
-        ``,
+        `  <h2>Regions in theme</h2>
+        Websites has sections for each contents and functionalities.
+        <blockquote>
+            <emR>regions</emR> = a set of named regions on website.
+        </blockquote>
+        <ul>
+            <li>dependent on layouts of the page.</li>
+        </ul>`,
     day06:
+        `<h2>Planning site layout</h2>
+        <section>
+            <h3>1. make a <emB>list of contents</emB> to be
+            <emB>displayed</emB> to <emR>site visitors</emR>.</h3>
+        </section>
+        <section>
+            <h3>2. make a <emB>list and types of pages</emB> and
+            what wil be <emB>contained</emB> at <emR>each page</emR>.</h3>
+        </section>
+        <section>
+            <h3>3.decide a <emB>the most important data</emB> for
+            <emB>each pages</emB> and <emR>what</emR> should be
+             <emB>in main navigation</emB>.</h3>
+        </section>
+        <section>
+            <h3>3.make a <emR>rough design</emR> for both <emB>mobile and desktop</emB>.</h3>
+        </section>`,
+    day07:
+        `<h2>Contents Entity and Fields</h2>
+        <section>
+            <h3>Contents Entity</h3>
+            <blockquote>
+                <emR>item</emR> of the <emB>content data</emR>
+                <ul>
+                    <caption>consisting of</caption>
+                    <li>text, HTML, images, attached files</li>
+                </ul>
+            </blockquote>
+            <ul>
+                <li>can be <emB>defined</emB> by <emR>core software and modules</emR>.</li>
+                <li>can <emB>have sub-type</emB>.</li>
+            </ul>
+            <div class="indented">
+                <h4>Examples</h4>
+                Here are some popular entities and its subtypes.
+                <table>
+                    <tr>
+                        <th>Entity Type</th>
+                        <th>Entity Subtype</th>
+                        <th>Defiing module</th>
+                        <th>Main use</th>
+                    </tr>
+                    <tr>
+                        <td>Comment</td>
+                        <td>Comment Type</td>
+                        <td>Comment module</td>
+                        <td>Comment added to content</td>
+                    </tr>
+                    <tr>
+                        <td>Content item</td>
+                        <td>Content type</td>
+                        <td>node module</td>
+                        <td>contents to be in main page area</td>
+                    </tr>
+                    <tr>
+                        <td>User Profile</td>
+                        <td>NONE</td>
+                        <td>User module</td>
+                        <td>defining user data for site</td>
+                    </tr>
+                    <tr>
+                        <td>Custom block</td>
+                        <td>Block type</td>
+                        <td>Custom block module</td>
+                        <td>small chunk of data to be shown in sidebar block</td>
+                    </tr>
+                    <tr>
+                        <td>file</td>
+                        <td>NONE</td>
+                        <td>file module</td>
+                        <td>image or file attachment tracked and managed by site</td>
+                    </tr>
+                    <tr>
+                        <td>contact form</td>
+                        <td>Form type</td>
+                        <td>contact module</td>
+                        <td>a form letting visitors contact site owners</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h3>Fields</h3>
+            <blockquote>
+                each <emB>entity(item of data)</emB>
+                consist of field(s) holding
+                 <emB>one type of data</emB> for <emB>each</emB>.
+            </blockquote>
+            <ul>
+                <li>good example is <emG>address item</emG>: <emB>street, state, country, post box</emB>.</li>
+                <li>can be <emB>added by administrator</emB> on an <emR>entity sub-type</emR></li>
+                <li>similar to <emG>properties and member functions on C++ class and JavaScript Object</emG></li>
+            </ul>
+        </section>`,
+    day08:
+        ` <h2>Modular Contents</h2>
+        <blockquote>
+            <emR>Modular Contents</emR> = <emB>separate</emB> contents
+            <emB>providing data</emB> for other pages to render. 
+        </blockquote>
+        <ul>
+            <li>separates data and page rendering when required.</li>
+            <li>allows <emG>automated edition of page</emG> simply by changing modular data.</li>
+        </ul>`,
+    day09:
         ``
     
 };

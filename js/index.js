@@ -9,4 +9,7 @@ const nav = {
     day04:()=>$("#main").html(data.day04),
     day05:()=>$("#main").html(data.day05),
     day06:()=>$("#main").html(data.day06),
+    day07:()=>$("#main").html(data.day07),
+    day08:()=>$("#main").html(data.day08),
+    day09:()=>$("#main").html(data.day09)
 }

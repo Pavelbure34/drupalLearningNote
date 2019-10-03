@@ -11,30 +11,58 @@
         <nav id="top">
             <h1 class="centerTxt">Drupal Guide</h1>
             <ul>
-                <caption>Fundamentals</caption>
+                <caption>Beginner: <emG>Fundamentals</emG></caption>
                 <li><a href="javascript:nav.day01()">What is CMS, Drupal, Open Source?</a></li>
                 <li><a href="javascript:nav.day02()">Modules and Themes</a></li>
-                <li><a href="javascript:nav.day03()"></a></li>
-                <li><a href="javascript:nav.day04()"></a></li>
-                <li><a href="javascript:nav.day05()"></a></li>
-                <li><a href="javascript:nav.day06()"></a></li>
-                
+                <li><a href="javascript:nav.day03()">Distributions</a></li>
+                <li><a href="javascript:nav.day04()">Data Types</a></li>
+            </ul>
+            <ul>
+                <caption>Beginner: <emG>Concepts</emG></caption>
+                <li><a href="javascript:nav.day05()">Regions in theme</a></li>
+                <li><a href="javascript:nav.day06()">Planning site layout</a></li>
+                <li><a href="javascript:nav.day07()">Contents Entity and Fields</a></li>
+                <li><a href="javascript:nav.day08()">Modular Contents</a></li>
+                <li><a href="javascript:nav.day09()">Contents Structures</a></li>
             </ul>
         </nav>
-        <article id="OT">
-        </article>
+        <div id="lessons">
+            <article id="OT">
+            </article>
+    
+            <article id="main">
+               <h2>Contents Structures</h2>
+               <ol>
+                   <li><emB>brainstorm!</emB></li>
+                        <div class="indented">
+                            You can ask yourself about
+                            <ul>
+                                <li><emR>What</emR> does my site <emR>need</emR> to <emB>have</emB>?</li>
+                                <li><emR>What</emR> do I want to <emR>share</emR> with <emB>users</emB>?</li>
+                                <li><emR>What</emR> will <emB>users</emB> be <emR>looking</emR> for?</li>
+                            </ul>
+                        </div>
+                   <li>decide <emG>the best type</emG> for each <emB>contents entity</emB>.</li>
+                   <li>decide <emB>divisions</emB> of <emB>entity subtypes</emB></li>
+                   <li>decide <emB>fields</emB> for <emB>entity subtypes</emB></li>
+                   <li>decide <emB>listings of entities</emB></li>
+               </ol>
+               <div class="indented">
+                   <h3>Examples</h3>
 
-        <article id="main">
-           
-           
-        </article>
+               </div>
+            </article>
+        </div>
         <a href="#top">click here to move top</a>
         <aside>
             <ul>
                 <caption>QnA</caption>
                 <li>From <emB>day01</emB>, <emR>contents vs fields</emR>?
                     <div class="indented">
-
+                        Fields are like properties to the class.<br>
+                        For example, address contents have state, country, city,<br>
+                        postbox, street address as components, and they are<br>
+                        <emB>fields</emB> in drupal. 
                     </div>
                 </li>
             </ul>
@@ -45,12 +73,20 @@
                      <emB>site features and add functionality</emB>.</li>
                 <li><emB>Themes</emB> = A set of files <emR>defining</emR>
                     <emB>the visual look and feel of your website</emB>.</li>
+                <li><emB>Distribution</emB> = provision of <emR>site features and functions</emR>
+                    <emB> for a specific type of site as single downlad</emB>.</li>
+                <li><emB>Contents Entity(entity)</emB> = <emR>items</emR> for
+                    <emB>contents type</emB>.</li>
+                <li><emB>Fields</emB> = <emR>sub-type and properties</emR> for
+                    <emB>entities</emB>.</li>
             </ul>
             <ul>
                 <caption>Tips</caption>
                 <li>You can easily <emB>change contents</emB> on drupal by <emR>installing and uninstalling modules</emR></li>
                 <li>Don&rsquo;t forget to <emR>remove data or configuration</emR> for <emB>function or features to be removed</emB>.</li>
                 <li><emR>remove</emR> the <emB>modules</emB> if <emR>not used</emR>.</li>
+                <li>Make <emR>mobile site layout</emR> <emB>first</emR> since people uses phone first often.</li>
+                <li>Making <emR>modular data</emR> helps <emB>maintain or update the page</emR> easily.</li>
             </ul>
             <ul>
                 <caption>Reference Sites</caption>
