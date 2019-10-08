@@ -350,6 +350,107 @@ const data = {
             <li>allows <emG>automated edition of page</emG> simply by changing modular data.</li>
         </ul>`,
     day09:
+        ``,
+    day10:
+        `<h2>Editorial Workflow</h2>
+        <blockquote>
+            A <emG>process</emG> organisations
+            follow to <emR>create, review, edit and publish</emR> <emB>contents</emB>.
+        </blockquote>
+        Think of a newspaper company.
+        There are <emB>contents creators and editors</emB>.
+        <section>
+            <h3>available tools</h3>
+            <div class="indented">
+                <h4>Published-unpublished status</h4>
+                <emB>contents item entity type</emB>
+                marks each content <emG>either published or
+                unpublished</emG>. 
+            </div>
+            <div class="indented">
+                <h4>Revision Tracking</h4>
+                some contents store the older version when revised.
+            </div>
+            <div class="indented">
+                <h4>Workflows</h4>
+                The <emB>core Workflow modules</emB> let you
+                define and assign <emG>roles and permission</emG>
+                 to workflow states and transitions.
+            </div>
+            <div class="indented">
+                <h4>Block placement</h4>
+                <emB>Custom block entity</emB> lets 
+                you create a custom block and edit it and
+                make visible on site when it is only done.
+            </div>
+        </section>`,
+    day11:
+        `<h2>User Interface, Configurations, Content Translations.</h2>
+        <section>
+            <h3>Content Translation</h3>
+            Sometimes you have to set up a page <emR>not based on English</emR>.<br>
+            <emB>User interface text, Configuration, and Content text and files</emB>
+            are all translatable.
+            <div class="indented">
+                <h4>User Interface</h4>
+                You can download <emG>core interface translation modules</emG>.
+            </div>
+            <div class="indented">
+                <h4>Configuration Text</h4>
+                Text predefined by system setting such as site title, and headers,
+                are editable so translatable.
+            </div>
+            <div class="indented">
+                <h4>Content Text and files</h4>
+                You can set it as translatable if translating modules are installed.
+            </div>
+            However, <emR>administration</emR> contents
+            will still be in English.
+        </section>`,
+    day12:
+        `<h2>Basic Set up</h2>
+        <section>
+            <h3>PHP</h3>
+            <emB>PHP 7.2 or higher versions</emB> are recommended.
+        </section>
+        <section>
+            <h3>Web Servers</h3>
+            <emB>Apache</emB> is recommended yet.<br>
+            Nginx, Hiawatha, PHP local server are also
+            available.
+        </section>
+        <section>
+            <h3>Database</h3>
+            mySQL version 5.5.3 or higher with InnoDB compatibility.
+            or PostGre 9.1.2 or higher.
+            SQLite 3.4.2 or higher.
+        </section>`,
+    day13:
+        `<h2>Additional useful tools</h2>
+        <section>
+            <div class="indented">
+                <h3>Git</h3>
+                Not to mention, Git offers
+                <emB>command line console</emB>
+                which is very efficient,
+            </div>
+            <div class="indented">
+                <h3>Composer</h3>
+                <blockquote>
+                    <emR>Composer</emR> is a tool for
+                    <emB>managing PHP dependencies.</emB>
+                </blockquote>
+                <ul>
+                    <li>Developers specifies what version of each external libraries</li>
+                    <li><emB>Core Module</emB>
+                         uses mostly Composer since <emB>it uses external modules</emB>.</li>
+                </ul>
+            </div>
+            <div class="indented">
+                <h3>Drupal Console</h3>
+                It provides command line environment
+                for installing modules, making boiler plates.
+            </div>`,
+    day14:
         ``
-    
 };
