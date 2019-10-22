@@ -350,7 +350,37 @@ const data = {
             <li>allows <emG>automated edition of page</emG> simply by changing modular data.</li>
         </ul>`,
     day09:
-        ``,
+        ` <h2>Contents Structures</h2>
+        Ask yourself this questions. 
+        <blockquote>
+            <ul>
+                <li>What kinds of contents do I need?</li>
+                <li>How are they all related?</li>
+                <li>which pages need one from all data you listed?</li>
+            </ul>
+        </blockquote>
+        <ol>
+            <li><emB>brainstorm!</emB></li>
+                 <div class="indented">
+                     You can ask yourself about
+                     <ul>
+                         <li><emR>What</emR> does my site <emR>need</emR> to <emB>have</emB>?</li>
+                         <li><emR>What</emR> do I want to <emR>share</emR> with <emB>users</emB>?</li>
+                         <li><emR>What</emR> will <emB>users</emB> be <emR>looking</emR> for?</li>
+                     </ul>
+                 </div>
+            <li>decide <emG>the best type</emG> for each <emB>contents entity</emB>.</li>
+            <li>decide <emB>divisions</emB> of <emB>entity subtypes</emB></li>
+            <li>decide <emB>fields</emB> for <emB>entity subtypes</emB></li>
+            <li>decide <emB>listings of entities</emB></li>
+            <li>decide <emG>how much data type</emG> you allow for each subtypes.</li>
+        </ol>
+        <div class="indented">
+            <h3>Examples</h3>
+             <blockquote>
+                 Consider 
+             </blockquote>
+        </div>`,
     day10:
         `<h2>Editorial Workflow</h2>
         <blockquote>
@@ -452,5 +482,92 @@ const data = {
                 for installing modules, making boiler plates.
             </div>`,
     day14:
-        ``
+        `<h2>How to install and set up drupal 8</h2>
+        <section>
+            You will need <emB>Apache</emB>,<emB>MySQL</emB>, <emB>PHP</emB>, <emB>Linux</emB>
+            since Drupal runs on <emB>LAMP</emB> stack.<br>
+            Get yourself a better computer and install lando...<br>
+            <ul>
+                <li>install lando</li>
+                <li>go <a href="https://docs.lando.dev/config/drupal8.html#getting-started">here</a></li>
+                <li>lando info</li>
+                <li>check database name, password, username, port number, database container</li>
+                <li>you are good to go!</li>
+            </ul>
+        </section>`,
+    day15:
+        ``,
+    day16:
+        ``,
+    day17:
+        ``,
+    day18:
+        ``,
+    day19:
+        ``,
+    day20:
+        `<h2>Changing basic site set up</h2>
+        <ol>
+            <li><emR>Log in as admin</emR>. Check up on tip section.</li>
+            <li>go to <emB>Configuration</emB>-><emB>Basic Site Setting</emB></li>
+            <li>There you can change the <emB>site name, slogan, and email address</emB>.</li>
+            <li>go to <emB>Configuration</emB>-><emB>Regional Setting</emB></li>
+            <li>There you can change the <emB>default country, date.</emB>.</li>
+        </ol>`,
+    day21:
+        `<h2>Installing a module</h2>
+        There are two ways to install the modules.
+        <ol>
+            <li>Using <emR>admin tool bar</emR></li>
+            <div class="indented">
+                <ol>
+                    <li>go to <emR>Extend</emR></li>
+                    <li><emB>check</emB> the module</li>
+                    <li><emB>click</emB> install</li>
+                </ol>
+            </div>
+            <li>Using <emR>drush command</emR></li>
+            <div class="indented">
+                <ol>
+                    <li>go to <emR>Extend</emR> using admin tool bar</li>
+                    <li><emB>check</emB> the module and find machine name</li>
+                    <li><emB>drush en</emB> <emG>machaine name you found</emG></li>
+                </ol>
+            </div>
+        </ol>`,
+    day22:
+        `<h2>Uninstalling a module</h2>
+        <li>Using <emR>admin tool bar</emR><br>
+            <emG>cannot uninstall modules required by other modules == dependencies</emG></li>
+        <div class="indented">
+            <ol>
+                <li>go to <emR>Extend</emR>-><emR>uninstall</emR></li>
+                <li><emB>check</emB> the module</li>
+                <li><emB>click</emB> uninstall</li>
+            </ol>
+        </div>
+        <li>Using <emR>drush command</emR></li>
+        <div class="indented">
+            <ol>
+                <li>go to <emR>Extend</emR> using admin tool bar</li>
+                <li><emB>check</emB> the module and find machine name</li>
+                <li><emB>drush pm-uninstall</emB> <emG>machaine name you found separated by comma</emG></li>
+            </ol>
+        </div>`,
+    day23:
+        `<h2>Configure user account setting</h2>
+        <ol>
+            <li>Go to
+                <emB>Configuration</emB>-><emB>People</emB>-><emB>Account setting</emB>
+            </li>
+            <li>You can change who is allowed to register.</li>
+        </ol>`,
+    day24:
+        `<h2>Configring a Theme</h2>
+        <ol>
+            <li>Go to <emB>Appearance</emB></li>
+            <li>Choose the theme to change</li>
+            <li>You can change colour of each part.</li>
+        </ol>`,
+    day25:``
 };

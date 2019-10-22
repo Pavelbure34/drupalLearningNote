@@ -16,5 +16,15 @@ const nav = {
     day11:()=>$("#main").html(data.day11),
     day12:()=>$("#main").html(data.day12),
     day13:()=>$("#main").html(data.day13),
-    day14:()=>$("#main").html(data.day14)
+    day14:()=>$("#main").html(data.day14),
+    day15:()=>$("#main").html(data.day15),
+    day16:()=>$("#main").html(data.day16),
+    day17:()=>$("#main").html(data.day17),
+    day18:()=>$("#main").html(data.day18),
+    day19:()=>$("#main").html(data.day19),
+    day20:()=>$("#main").html(data.day20),
+    day21:()=>$("#main").html(data.day21),
+    day22:()=>$("#main").html(data.day22),
+    day23:()=>$("#main").html(data.day23),
+    day24:()=>$("#main").html(data.day24)
 }

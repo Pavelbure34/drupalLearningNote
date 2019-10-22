@@ -16,6 +16,8 @@
                 <li><a href="javascript:nav.day02()">Modules and Themes</a></li>
                 <li><a href="javascript:nav.day03()">Distributions</a></li>
                 <li><a href="javascript:nav.day04()">Data Types</a></li>
+                <li><a href="javascript:nav.day20()">Changing basic site set up</a></li>
+                <li><a href="javascript:nav.day23()">Configure user account setting</a></li>
             </ul>
             <ul>
                 <caption>Beginner: <emG>Concepts</emG></caption>
@@ -31,7 +33,25 @@
                 <caption>Installation</caption>
                 <li><a href="javascript:nav.day12()">Basic Set up</a></li>
                 <li><a href="javascript:nav.day13()">Additional useful tools</a></li>
-                <li><a href="javascript:nav.day14()">How to download core software</a></li>
+                <li><a href="javascript:nav.day14()">How to install and set up drupal 8</a></li>
+            </ul>
+            <ul>
+                <caption>Theming</caption>
+                <li><a href="javascript:nav.day15()">What is theme?</a></li>
+                <li><a href="javascript:nav.day24()">Configring a Theme</a></li>
+                <li><a href="javascript:nav.day17()"></a></li>
+                <li><a href="javascript:nav.day18()"></a></li>
+                <li><a href="javascript:nav.day19()"></a></li>
+            </ul>
+            <ul>
+                <caption>Modules</caption>
+                <li><a href="javascript:nav.day21()">Installing a module</a></li>
+                <li><a href="javascript:nav.day22()">Uninstalling a module</a></li>
+            </ul>
+            <ul>
+                <caption>Basic Page Management</caption>
+                <li><a href="javascript:nav.day25()"></a></li>
+                <li><a href="javascript:nav.day26()"></a></li>
             </ul>
         </nav>
         <div id="lessons">
@@ -40,45 +60,28 @@
 
             
             </section>
+
+            <article id="main">
+           
+            </article>
     
             <article id="main">
-               <h2>Contents Structures</h2>
-               Ask yourself this questions. 
-               <blockquote>
-                   <ul>
-                       <li>What kinds of contents do I need?</li>
-                       <li>How are they all related?</li>
-                       <li>which pages need one from all data you listed?</li>
-                   </ul>
-               </blockquote>
-               <ol>
-                   <li><emB>brainstorm!</emB></li>
-                        <div class="indented">
-                            You can ask yourself about
-                            <ul>
-                                <li><emR>What</emR> does my site <emR>need</emR> to <emB>have</emB>?</li>
-                                <li><emR>What</emR> do I want to <emR>share</emR> with <emB>users</emB>?</li>
-                                <li><emR>What</emR> will <emB>users</emB> be <emR>looking</emR> for?</li>
-                            </ul>
-                        </div>
-                   <li>decide <emG>the best type</emG> for each <emB>contents entity</emB>.</li>
-                   <li>decide <emB>divisions</emB> of <emB>entity subtypes</emB></li>
-                   <li>decide <emB>fields</emB> for <emB>entity subtypes</emB></li>
-                   <li>decide <emB>listings of entities</emB></li>
-                   <li>decide <emG>how much data type</emG> you allow for each subtypes.</li>
-               </ol>
-               <div class="indented">
-                   <h3>Examples</h3>
-                    <blockquote>
-                        Consider 
-                    </blockquote>
-               </div>
+              <h2>What is theme?</h2>
+              <blockquote>
+
+              </blockquote>
+              <ul>
+                  <li></li>
+              </ul>
+              <section class="indented">
+                  <h2>What files and assets belong to theme</h2>
+              </section>
+              <section class="indented">
+                    <h2>What files and assets belong to theme</h2>
+                </section>
             </article>
 
-            <h2>How to download core software</h2>
-            <section>
-                
-            </section>
+            
             
         </div>
         <a href="#top">click here to move top</a>
@@ -107,9 +110,27 @@
                     <emB>contents type</emB>.</li>
                 <li><emB>Fields</emB> = <emR>sub-type and properties</emR> for
                     <emB>entities</emB>.</li>
+                <li><emB>URL</emB> = <emR>Uniform Resource Locator</emR> aka
+                    <emB>address of the web site</emB>.</li>
+                <li><emB>Path</emB> = <emR>unique part of URL</emR> for
+                    <emB>specific function and contents</emB>.</li>
+                <li><emB>Alias</emB> = <emR>more understandable name</emR> for
+                    <emB>the paths</emB>.</li>
             </ul>
             <ul>
                 <caption>Tips</caption>
+                <li>If change is not applied immediately, clear the cache.</li>
+                <li>In order to use admin tool bar,
+                    <ul>
+                        <li><emB>lando drush uli</emB> <emG>//if user account is not set up</emG></li>
+                        <li><emB>copy</emB> <emR>the uri</emR>.</li>
+                        <li><emB>lando info</emB> -> get <emR>site's url</emR></li>
+                        <li><emB>paste</emB> it into the <emR>default</emR></li>
+                    </ul>
+                </li>
+                <li>When making a boiler plate website using Lando
+                    ,<emB>lando info</emB> and get the information you need.
+                </li>
                 <li>Database can be either <emB>mySQL</emB>(5.5.3 or higher) with
                      <emR>InnoDB compatibility</emR></li>
                 <li><emG>Apache</emG> is recommended for <emB>web servers</emB>.</li>
