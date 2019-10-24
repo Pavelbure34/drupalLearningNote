@@ -26,5 +26,13 @@ const nav = {
     day21:()=>$("#main").html(data.day21),
     day22:()=>$("#main").html(data.day22),
     day23:()=>$("#main").html(data.day23),
-    day24:()=>$("#main").html(data.day24)
+    day24:()=>$("#main").html(data.day24),
+    day25:()=>$("#main").html(data.day25),
+    day26:()=>$("#main").html(data.day26),
+    day27:()=>$("#main").html(data.day27),
+    day28:()=>$("#main").html(data.day28),
+    day29:()=>$("#main").html(data.day29),
+    day30:()=>$("#main").html(data.day30),
+    day31:()=>$("#main").html(data.day31),
+    day32:()=>$("#main").html(data.day32),
 }

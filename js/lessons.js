@@ -569,5 +569,61 @@ const data = {
             <li>Choose the theme to change</li>
             <li>You can change colour of each part.</li>
         </ol>`,
-    day25:``
+    day25:
+        `<h2>How to add basic pages</h2>
+        <ul>
+            <caption>On the <emG>admin tool bar</emG>,</caption>
+            <li>Click <emB>Content</emB> -> <emB>Add content</emB> -> <emB>basic page</emB></li>
+            <li>Select <emB>option for writing</emB></li>
+            <li>Set up <emB>URL alias</emB>.</li>
+            <li>Set up <emB>published or not</emB></li>
+            <li>click <emR>save</emR>.</li>
+        </ul>
+        You can simply write with pure html, javascript, css.`,
+    day26:
+        `<h2>How to edit basic pages</h2>
+        <ul>
+            <caption>On the <emG>admin tool bar</emG>,</caption>
+            <li>Click <emB>Content</emB></li>
+            <li>Select <emB>Contents</emB>  you like to edit</li>
+            <li>Set up <emB>reviison option</emB>.</li>
+            <li>Set up <emB>what has been changed</emB></li>
+            <li>click <emR>save</emR>.</li>
+        </ul>
+        You can simply write with pure html, javascript, css.`,
+    day27:
+        `<h2>How to add pages to navigation</h2>
+        <ul>
+            <caption>On the <emG>admin tool bar</emG>,</caption>
+            <li>Click <emB>Content</emB></li>
+            <li>Select <emB>Contents</emB>  you like to edit</li>
+            <li>Set up <emB>menu setting</emB>.</li>
+            <li>Set up <emB>set up parent item</emB></li>
+            <li>click <emR>save</emR>.</li>
+        </ul>
+        You can simply write with pure html, javascript, css.`,
+    day28:
+        `<h2>How to change orders navigation</h2>
+        <ul>
+            <caption>On the <emG>admin tool bar</emG>,</caption>
+            <li>Click <emB>Structure</emB>-><emB>Menu</emB></li>
+            <li>Select <emB>Main Menu</emB> and click edit</li>
+            <li>Drag pages in order you want.</li>
+            <li>or modify the weight in menu setting in each page.</li>
+            <li>click <emR>save</emR>.</li>
+        </ul>
+        You can simply write with pure html, javascript, css.`,
+    day29:
+        `<h2>How to make custom contents type</h2>
+        <ul>
+          <caption>On the <emG>admin tool bar</emG>,</caption>
+          <li>Click <emB>Structure</emB>-><emB>Contents Type</emB></li>
+          <li>Select <emB>add content type</emB></li>
+          <li>Select <emG>name, title field label, preview options, explanations for preview</emG>.</li>
+          <li>Select publishing options such as published, promoted to front page, sticky at top fo lists, creae new revision</li>
+          <li>click <emR>save</emR>.</li>
+        </ul>`,
+    day30:``,
+    day31:``,
+    day32:``,
 };
