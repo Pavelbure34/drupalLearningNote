@@ -623,7 +623,82 @@ const data = {
           <li>Select publishing options such as published, promoted to front page, sticky at top fo lists, creae new revision</li>
           <li>click <emR>save</emR>.</li>
         </ul>`,
-    day30:``,
-    day31:``,
-    day32:``,
+    day30:
+        `<h2>How to make custom field for contents type</h2>  
+        <ul>
+            <caption>On the <emG>admin tool bar</emG>,</caption>
+            <li>Click <emB>Structure</emB>-><emB>Contents Type</emB></li>
+            <li>Select <emB>edit fields</emB> on existing content types</li>
+            <li>Select <emG>type and name</emG>.</li>
+            <li>Select <emG>basic setp ups</emG>.</li>
+            <li>Select <emG>save</emG>.</li>
+        </ul>`,
+    day31:
+        ` <h2>How to delete field from content type</h2>
+        <ul>
+          <caption>On the <emG>admin tool bar</emG>,</caption>
+          <li>Click <emB>Structure</emB>-><emB>Contents Type</emB></li>
+          <li>Select <emB>more options</emB> on existing content types</li>
+          <li>Select <emG>delete</emG>.</li>
+        </ul>`,
+    day32:
+        ` <h2>Reference Field</h2>
+        <blockquote>
+            <emB>field</emB> presenting <emR>relationships</emR>
+            between entity and one or more other entities.
+        </blockquote>
+        <ul>
+            <li><emB>Content reference</emB> = a <emR>reference</emR> to a <emB>content item</emB></li>
+            <div class="indented">
+                ex) <emB>Recipe</emB> will require <emR>relationship and reference</emR> with and to <emB>the vendor who posts it</emB>.
+            </div>
+            <li><emB>Taxonomy term Reference</emB> = a <emR>reference</emR> to a <emB>taxonomy term</emB></li>
+            <div class="indented">
+                ex) <emB>Recipe</emB> will require <emR>relationship and reference</emR> with and to <emB>ingredients</emB>.
+            </div>
+            <li><emB>User reference</emB> = a <emR>reference</emR> to a <emB>user account</emB>.</li>
+            <div class="indented">
+                ex) <emB>Recipe</emB> will require <emR>relationship and reference</emR> with and to <emB>the chef who made it</emB>.
+            </div>
+        </ul>`,
+    day33:
+        ` <h2>Taxonomy</h2>
+        <blockquote>
+            <emB>method</emB> to classify <emR>the contents</emR>
+        </blockquote>
+        <ul>
+            <li>used to <emR>categorize and classify</emR> <emB>posts in website</emB></li>
+            <li>single taxonomy is called <emB>term</emB>.</li>
+            <li>A set of terms is called <emB>vocabulary</emB>.</li>
+            <li>usually <emG>attached to the reference fields to other content entities</emG>.</li>
+            <div class="indented">
+                ex) <emB>Recipe</emB> will require <emR>ingredient tag</emR>.<br>
+                ex) when ingredient carrot is in recipe, searching for carrot will bring all the recipe including carrots.
+            </div>
+        </ul>`,
+    day34:
+        `<h2>How to set up taxonomy</h2>
+        <ul>
+            <li>click <emB>structure</emB>-><emB>taxonomy</emB></li>
+            <li>click <emB>add vocabulary</emB></li>
+            <li>set up name and description</li>
+            <li>fill up the vocabulary.</li>
+            <li><emG>time to apply for the field</emG>
+                <ul>
+                    <li>in <emB>field editing for contents type</emB>, choose taxonomy(reference).</li>
+                    <li>set up a name and basic set-ups.</li>
+                </ul>
+            </li>
+            <li>save and good to go.</li>
+        </ul>`,
+    day35:
+        `<h2>How to add reference field</h2>
+        <ul>
+            <li>go to <emB>structure</emB>-><emB>contents</emB></li>
+            <li><emB>edit field</emB> -> <emB>add field in reference</emB></li>
+            <li>specify <emR>which content you refer to</emR></li>
+        </ul>`,
+    day36:``,
+    day37:``,
+    day38:``
 };
