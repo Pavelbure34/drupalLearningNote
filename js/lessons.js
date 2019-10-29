@@ -698,7 +698,8 @@ const data = {
             <li><emB>edit field</emB> -> <emB>add field in reference</emB></li>
             <li>specify <emR>which content you refer to</emR></li>
         </ul>`,
-    day36:``,
+    day36:
+        ``,
     day37:``,
     day38:``
 };
