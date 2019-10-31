@@ -41,4 +41,8 @@ const nav = {
     day36:()=>$("#main").html(data.day36),
     day37:()=>$("#main").html(data.day37),
     day38:()=>$("#main").html(data.day38),
+    day39:()=>$("#main").html(data.day39),
+    day40:()=>$("#main").html(data.day40),
+    day41:()=>$("#main").html(data.day41),
+    day42:()=>$("#main").html(data.day42),
 }

@@ -699,7 +699,53 @@ const data = {
             <li>specify <emR>which content you refer to</emR></li>
         </ul>`,
     day36:
-        ``,
-    day37:``,
-    day38:``
+        `<h2>changing content entry form</h2>
+        In drupal, those who have admin access can 
+        <emB>change</emB> the <emR>form for the entry to th field</emR>.<br>
+        <ul>
+            <li>go to <emB>structure</emB>-><emB>contents type</emB></li>
+            <li>select <emB>manage form display</emB></li>
+            <li>change the setting</li>
+            <li>click save.</li>
+            <li>confirm the change when making new content.</li>
+        </ul>`,
+    day37:
+        ` <h2>How to edit visuals of the contents</h2>
+        When you view your contents such as vendor, recipe, player...<br>
+         it will need to configure how it is displayed.
+         <ul>
+             <li>from the admin tool bar,</li>
+             <li>go to <emB>structure</emB>-><emB>contents type</emB></li>
+             <li>select <emB>manage display</emB></li>
+             <li>change <emB>settings</emB>
+                 <ol>
+                     <li>display order</li>
+                     <li>showing or hiding labels</li>
+                     <li>link properties</li>
+                 </ol>
+             </li>
+             <li>click save and see how it is done</li>
+         </ul>`,
+    day38:
+        `<h2>image styling</h2>
+        When image is not in the desired size, you can set up image style.
+        <ul>
+            <li>from the admin tool bar,</li>
+            <li>go to <emB>configuration</emB>-><emB>image style</emB></li>
+            <li>select <emB>make new image style</emB></li>
+            <li>set up the properties</li>
+            <li>save.</li>
+            <li>go to <emB>structure</emB>-><emB>contents type</emB>-><emB>edit display</emB></li>
+            <li>apply lmage style to the image.</li>
+        </ul>`,
+    day39:
+        ` <h2>responsive image styles</h2>
+        <emB>responsive image style</emB> allows optimal image style for different platform.
+          <ul>
+              <li>it is mapping between <emB>image style</emB> and <emB>breakpoints</emB>.</li>
+              <li><emB>break points</emB> are when image style changes.</li>
+          </ul>`,
+    day40:``,
+    day41:``,
+    day42:``,
 };
