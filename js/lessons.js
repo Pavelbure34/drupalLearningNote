@@ -745,7 +745,57 @@ const data = {
               <li>it is mapping between <emB>image style</emB> and <emB>breakpoints</emB>.</li>
               <li><emB>break points</emB> are when image style changes.</li>
           </ul>`,
-    day40:``,
-    day41:``,
+    day40:
+        ` <h2>text formats and editors</h2>
+        <blockquote>
+            <ul class="noLiItem">
+                <li><emB>text formats</emB> change <emG>how HTML tags and other texts are processed</emG>.
+            </ul>
+        </blockquote>
+        <ul>
+            <caption>Text format</caption>
+            <li>series of <emB>filters</emB> that can transform the text</li>
+            <li>can edit iwth visual WSYIWYG(what you see is what you get)</li>
+        </ul>
+        <ul>
+            <h3>how</h3>
+            <li>click <emB>configuration</emB>-><emB>content authoring</emB>-><emB>Text formats and Rendering</emB></li>
+            <li>choose options to edit.</li>
+            <li>click save.</li>
+        </ul>`,
+    day41:
+        ` <h2>Roles, Permission, and Users</h2>
+        <div class="indented">
+            <h3>Permission</h3>
+            <blockquote>
+                <emR>Permissions</emR> allow user to do actions on their site.
+            </blockquote>
+            <ul>
+                <caption>Based on the permission</caption>
+                <li>root user -> omnipotent</li>
+                <li>admin user -> access to data and authority to modify data</li>
+                <li>etc ....</li>
+            </ul>
+            Permissions are grouped with <emB>roles</emB>.
+            <ul class="noLiItem">
+                <li>ex) content editor, vendor, etc...</li>
+            </ul>
+        </div>
+        <div class="indented">
+            <h3>Users</h3>
+            <blockquote>
+                <emR>Users</emR> are anyone using your webpage
+            </blockquote>
+            <ul>
+                <li><emB>Anonymous User</emB>: user without loggging in</li>
+                <li><emB>Authenticated User</emB>: user logged in</li>
+                <li><emB>Administrator User</emB>: user who have admin permissions</li>
+            </ul>
+        </div>`,
     day42:``,
+    day43:``,
+    day44:``,
+    day45:``,
+    day46:``,
+    day47:``
 };
