@@ -50,4 +50,5 @@ const nav = {
     day45:()=>$("#main").html(data.day45),
     day46:()=>$("#main").html(data.day46),
     day47:()=>$("#main").html(data.day47),
+    etc1:()=>$("#main").html(data.etc1),
 }

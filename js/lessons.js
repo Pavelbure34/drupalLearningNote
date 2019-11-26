@@ -790,12 +790,69 @@ const data = {
                 <li><emB>Anonymous User</emB>: user without loggging in</li>
                 <li><emB>Authenticated User</emB>: user logged in</li>
                 <li><emB>Administrator User</emB>: user who have admin permissions</li>
+                <li><emB>Root User</emB>: omnipotent authority over contents and websites</li>
             </ul>
         </div>`,
-    day42:``,
-    day43:``,
-    day44:``,
+    day42:
+        ` <h2>How to make roles and assign permission to them</h2>
+        <p>
+             When having multiple people working on the project,
+             it is important to limit the permission over contents
+             depending on their position.
+        </p>
+        <ul>
+            <caption>From the <emB>admin tool bar</emB></caption>
+            <li>go to <emB>people</emB>-><emB>Roles</emB></li>
+            <li>click <emB>add role</emB> for new roles</li>
+            <li>check <emB>boxes for permission</emB>
+              over <emR>new roles</emR> created.</li>
+        </ul>`,
+    day43:
+        `<h2>How to create a user</h2>
+        <p>
+          In order to let people work on your project,
+          you have to create an user account. 
+        </p>
+        <ul>
+            <li>go to <emB>people</emB>-><emB>add user</emB></li>
+            <li>fill out information.</li>
+        </ul>`,
+    day44:
+        ` <h2>How to assign permissions to the role</h2>
+        <p>
+            Now after you created <emB>a role</emB>, it is time to <emB>assign</emB> them
+            with <emB>the permission</emB>!
+        </p>
+        <ul>
+            <li>Go to <emR>people</emR>-><emB>role</emB></li>
+            <li>Click on down arrow cursor of the role</li>
+            <li>and click edit permission then select it as you want.</li>
+        </ul>
+        <ul>
+            <caption>Things to Remember</caption>
+            <li><emR>permissions differ from the modules installed</emR></li>
+        </ul>`,
     day45:``,
     day46:``,
-    day47:``
+    day47:``,
+    etc1:
+        `<h2>How to commit your work to the master</h2>
+        <ul>
+            <li><emR>always</emR> check your branch: <emG>git status</emG></li>
+            <li>If not in master, you are in previous branch.
+                do: <emG>git checkout master</emG> to <emB>return to master</emB></li>
+            <li>check if you are up to date: <emG>git fetch</emG> will tell you how far befind your repo is</li>
+            <li>if behind, do <emG>git pull</emG></li>
+            <li>create the <emR>branch for the issue</emR>: <emG>git branch issueNum-summaryOfISsue</emG></li>
+            <li>do <emG>git add .</emG>-><emG>git commit -m "type(scope):summary in present tense"</emG></li>
+            <li>if <emR>test sql does not need to in push</emR>, do <emG>git reset FileName</emG></li>
+            <li><emG>git push origin BranchForIssue</emG></li>
+        </ul>
+        On the gitlab, 
+        <ul>
+            <li>go to <emB>merge request</emB>-><emB>create merge request</emB></li>
+            <li>you will have your contents filled up already</li>
+            <li>assign to your supervisor</li>
+            <li>submit the request</li>
+        </ul>`
 };
